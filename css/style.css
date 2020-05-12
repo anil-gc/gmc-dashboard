@@ -1,0 +1,103 @@
+
+body {
+    margin: 0;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fafafa; }
+
+/* for vertical navbar */
+
+#avatar{
+    height: 35px;
+    border-radius: 50%;
+}
+
+.navbar-brand{
+    color: #3C4858 !important;
+    font-weight: 300;
+    font-size: 17px;
+    opacity: 0.8;
+}
+
+#vertical-nav{
+    box-shadow: 2px -5px 10px 0px grey;
+    height: 800px;
+}
+
+#vertical-nav button{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#vertical-nav .leftLogo{
+    text-transform: uppercase;
+    font-size: 17px;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: 300px;
+}
+
+.leftLogo a{
+    color: #3C4858;
+}
+
+.leftLogo a:hover{
+    text-decoration: none;
+}
+
+#ct {
+    margin-right: 15px;
+}
+
+
+#vertical-nav .line{
+    width: 200px;
+    height: 0.5px;
+    margin-left: 15px;
+    background-color: rgba(180, 180, 180, 0.3);
+}
+
+#vertical-nav .nav-button{
+    background-color: #9C27B0;
+    margin-left: 10px;
+    color: #fff;
+    border-radius: 4px;
+    height: 40px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+.nav-button a{
+    color: inherit;
+    text-align: left;
+}
+
+.nav-button .fa-delicious{
+    vertical-align: middle;
+}
+
+#vertical-nav #nav-dashboard{
+    vertical-align: middle !important;
+}
+
+/* vertical navbar end */
+
+
+/* horizontal navbar start */
+.nav-item a{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.navbar{
+    margin-top: 6px;
+}
+/* horizontal navbar end */
